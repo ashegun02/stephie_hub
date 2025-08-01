@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title> Stephie Hub </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+   <!----------header---------->
+    <header class="header">
+        <a href="#"> <img src="./IMAGES/Brandlogo1.png" alt="Brandlogo"></a> 
+        <div class="NavMenu" id="NavMenu">
+            <i class='bx  bx-window-close' onclick="closeMenu()"></i>  
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="services.html">Services</a></li>
+                <li> <a href="product.html">product</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class='bx  bx-menu' onclick="openMenu()"></i>  
+    </header>
+
+    <!----------Sub-header session---------->
+    <section class="sub-header" id="sub-header">
+        <h1>Contact<span> Me</span></h1>
+    </section>
+    
+<!------Contact Session------>
+<section class="map">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.794129664489!2d3.971151174051916!3d7.376955712659538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103993913e910549%3A0x103515a09104d42e!2sAirport%20Road%2C%20Ibadan%2C%20Oyo!5e0!3m2!1sen!2sng!4v1754031752031!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="contact" id="contact">
+    <div class="contact-text">
+        <h4 class="dot">Whatever your scent journey may be....</h4>
+        <p>As a fragrance connoisseur, I'm dedicated to crafting unique and alluring perfumes that evoke emotions and inspire confidence. Let's explore our signature scents and find the perfect fragrance for you.</p>
+        <div class="list">
+            <li><a href="https://wa.me/+2349064200997">+2349064200997</a></li>
+            <li><a href="#">stephiehub02@gmail.com</a></li>
+            <li><a href="#">Like, Share & Subscribe</a></li>
+        </div>
+        <div class="icons">
+            <a href="https://www.facebook.com/stephie.hub"><i class ="bx bxl-facebook"></i></a>
+            <a href="https://www.tiktok.com/@stephie_hub"><i class ='bx bxl-tiktok'></i></a>
+            <a href="https://www.instagram.com/stephie_hub"><i class ="bx bxl-instagram-alt"></i></a>
+            <a href="https://wa.me/09064200997"><i class='bx bxl-whatsapp'></i></a>
+        </div>
+    </div>
+    <div class="contact-form">
+        <form action="">
+            <input type="name" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="number" placeholder="Your Mobile Number" required>
+            <textarea name="" id="" cols="35" rows="10" placeholder="How can I Help You?"></textarea>
+            <input type="submit" value="Send Message" class="submit">
+        </form>
+    </div>
+</section>
+
+<!----------footer session---------->
+<footer class="footer">
+    <div class="attribution">
+        <p>Design With <i class='bx  bx-heart'  ></i> By AshegunTech</p>
+    </div>
+    <div class="move-up">
+        <a href="#sub-header"><i class='bx  bx-up-arrow-alt'  ></i> </a>
+    </div>
+
+    <!-----JS for toggle menu------>
+    <script>
+        var NavMenu = document.getElementById("NavMenu");
+       
+        function openMenu() {
+            NavMenu.style.right = "0";
+        }
+
+         function closeMenu() {
+            NavMenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

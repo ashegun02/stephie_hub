@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta name="description" content="MI-TECH COMMUNITY">
+    <title> Page title </title>
+    <link rel="stylesheet" href="correct.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+   <!----------header---------->
+    <header class="header">
+        <a href="#"> <img src="logo2.png" alt="logo"></a> 
+        <div class="NavMenu" id="NavMenu">
+            <i class='bx  bx-window-close' onclick="closeMenu()"></i>  
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="services.html">Services</a></li>
+                <li> <a href="portfolio.html">portfolio</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class='bx  bx-menu' onclick="openMenu()"></i>  
+    </header>
+
+<!----------Home session---------->
+<section class="home" id="home">
+    <div class="home-content">
+        <div class="show">
+            <span class="first"> Hi </span>
+            <span class="second">I'm</span>
+        </div>
+        <h1>Masroor Ibrahim</h1>
+        <h3>Front-end <span>Developer</span></h3>
+        <p>I build beautiful, responsive websites with clean and sematic code. <br> I'm passionate about creating user-friendly and Accessible web experience. With a strong focus on html and css, I turn design visions into fully functional, pixel perfect website. i believe in the power of simplicity and strive to write clean, and efficient code that performs well across all devices and browsers.</p>
+    <div class="button"> 
+        <a href="#" class="btn"> About Me</a>
+    </div>
+    </div>
+</section>
+
+<!----------About session---------->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="home.jpg" alt="image">
+    </div>
+    <div class="about-text">
+        <h2>About <span> Me</span></h2>
+        <h4>Front-End Developer </h4>
+        <p>I'm Masroor Ibrahim, a front-end developer specialising in crafting responsive and accessible websites using the core building blocks of the web: HTML and CSS. I turn design features into reality, ensuring every site i build is not only visually stunning but also inclusive and perfomant. What excited me most about Front-End Development is the power of CSS. With it, I can create intricate layouts, smooth animations and responsive designs that adapt seamlessly across device. I believe in wring clean, semantic HTML to ensure accessibility and a solid foundation for all users, including those using assistive technologies. My expertise lies in leveraging modern CSS techniques like Grid and Flexbox to build complex layouts, while maintaining a mobile first approach. i take pride in writing efficient, maintainable without relying on javascript for styling, resulting in faster load times and a more reliable user expereince. Whem am not coding you can find me exploring the latest design trends, hiking in the mountains or contributing to open source projects. Am always eager to take on new challenges and collaborate on projects that make difference.</p>
+        <a href="" class="btn">More About</a>
+    </div>
+</section>
+
+<!----------Services session---------->
+<section class="services" id="services">
+    <div class="text-title">
+        <h2> <span> My </span> Services </h2>
+    </div>
+    <div class="services-content">
+        <div class="box">
+            <div class="icons">
+                <i class='bx  bx-code'  ></i>   
+            </div>
+            <h3> Semantic Website Development </h3>
+            <p> Hand coded HTML5 websites with perfectly structured content for SEO and accessibility.</p>
+            <ul class="services-features">
+                <li> Clean, maintainable markup </li>
+                <li> SEO-optimized hierachy</li>
+                <li>Screen reader friendly</li>
+            </ul>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+         <div class="box">
+             <div class="icons">
+                <i class='bx  bx-devices'  ></i>   
+            </div>
+            <h3> Responsive UI Engineering </h3>
+            <p> Mobile-first layout that adapt flawlessly to all devices using flexbix and grid.</p>
+            <ul class="services-features">
+                <li> Fluid break-point systems </li>
+                <li> Touch-friendly interfaces</li>
+                <li> Cross-browser tested</li>
+            </ul>
+            <a href="#" class="btn">Read More</a>
+        </div>
+
+         <div class="box">
+             <div class="icons">
+                <i class='bx  bx-pen'  ></i>   
+            </div>
+            <h3> Animation & Effect </h3>
+            <p> Engaging interactions and micro-animation using CSS transitions and keyframe.</p>
+            <ul class="services-features">
+                <li> Hover/State animations </li>
+                <li> Scroll-triggered effects</li>
+                <li>Loading Indicators</li>
+            </ul>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+</section>
+
+<!---------portfolio session---------->
+<section class="portfolio" id="portfolio">
+    <div class="text-title">
+        <h2> <span> Recent </span> portfolios </h2>
+    </div>
+    <div class="portfolio-content">
+        <div class="row">
+            <img src="project1.jpg" alt="project1">
+            <div class="cover">
+                <h5>Email Template Development</h5>
+                <p>Pixel perfect Email templates compatible with all major clients using table-based layouts</p>
+                <a href=""><i class="bx bx-link-external"></i></a>
+                <ul class="portfolio-features">
+                    <li> Litmus tested </li>
+                    <li>Dark mode support </li>
+                    <li> Inline CSS optimisation </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="project2.jpg" alt="project2">
+            <div class="cover">
+                <h5>Accessible Audits</h5>
+                <p>WCAG compliance reviews and remediations for existing websites </p>
+                <a href=""><i class="bx bx-link-external"></i></a>
+                <ul class="portfolio-features">
+                    <li> Color contrast fixes </li>
+                    <li> Keyboard navigation </li>
+                    <li> ARIA implementation </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <img src="project3.jpg" alt="project3">
+            <div class="cover">
+                <h5>Performance Optimization</h5>
+                <p>Lightning fast websites through CSS efficiency techniques</p>
+                <a href=""><i class="bx bx-link-external"></i></a>
+                <ul class="portfolio-features">
+                    <li> Critical CSS extraction </li>
+                    <li> O-JS Animation </li>
+                    <li> Reduced render-blocking </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------Contact Session------>
+<section class="contact" id="contact">
+    <div class="contact-text">
+        <h2>Contact<span>Me!</span></h2>
+        <h4>Have a project in mind?  reach out for collaboration or inquires </h4>
+        <div class="list">
+            <li><a href="#">+2349130216263</a></li>
+            <li><a href="#">ibrahimmasroor612@gmail.com</a></li>
+            <li><a href="#">Like, Share & Comment</a></li>
+        </div>
+        <div class="icons">
+            <a href="#"><i class ="bx bxl-facebook"></i></a>
+            <a href="#"><i class ='bx bxl-twitter'></i></a>
+            <a href="#"><i class ="bx bxl-instagram-alt"></i></a>
+            <a href="#"><i class='bx bxl-youtube'></i></a>
+        </div>
+    </div>
+    <div class="contact-form">
+        <form action="">
+            <input type="name" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="number" placeholder="Your Mobile Number" required>
+            <textarea name="" id="" cols="35" rows="10" placeholder="How can I Help You?"></textarea>
+            <input type="submit" value="Send Message" class="submit">
+        </form>
+    </div>
+</section>
+
+<!----------footer session---------->
+<footer class="footer">
+    <div class="attribute">
+        <p>Design With <i class='bx  bx-heart'  ></i> By MI-TECH</p>
+    </div>
+    <div class="move-up">
+        <a href="#home"><i class='bx  bx-up-arrow-alt'  ></i> </a>
+    </div>
+</footer>
+
+    <!-----JS for toggle menu------>
+    <script>
+        var NavMenu = document.getElementById("NavMenu");
+       
+        function openMenu() {
+            NavMenu.style.right = "0";
+        }
+
+         function closeMenu() {
+            NavMenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

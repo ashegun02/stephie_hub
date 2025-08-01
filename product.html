@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title> Stephie Hub </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+   <!----------header---------->
+    <header class="header">
+        <a href="#"> <img src="./IMAGES/Brandlogo1.png" alt="Brandlogo"></a> 
+        <div class="NavMenu" id="NavMenu">
+            <i class='bx  bx-window-close' onclick="closeMenu()"></i>  
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="services.html">Services</a></li>
+                <li> <a href="product.html">product</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class='bx  bx-menu' onclick="openMenu()"></i>  
+    </header>
+
+    <!----------Sub-header session---------->
+    <section class="sub-header" id="sub-header">
+        <h1> <span> Recent </span> Product </h1>
+    </section>
+    
+<!---------product session---------->
+<section class="product" id="product">
+    <div class="sub-text-title">
+        <h2> Yummy Fruity Fragrance <span> Set </span>  </h2>
+    </div>
+    <div class="product-content">
+        <div class="row">
+            <img src="./IMAGES/prod1.jpg" alt="">
+            <div class="cover">
+                <h5>Visual Designs</h5>
+                <p>Expertly curated fragrances and perfumes to elevate your senses and style. From luxurious scents to bespoke blends, discover your signature today!</p>
+                <a href=""><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <img src="./IMAGES/fruity.jpg" alt="">
+            <div class="cover">
+                <h5>Visual Designs</h5>
+                <p>Expertly curated fragrances and perfumes to elevate your senses and style. From luxurious scents to bespoke blends, discover your signature today!</p>
+                <a href=""><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="product" id="product">
+    <div class="sub-text-title">
+        <h2> Gourmand Perfume <span> Set </span>  </h2>
+    </div>
+    <div class="product-content">
+        <div class="row">
+            <img src="./IMAGES/prod3.jpg" alt="">
+            <div class="cover">
+                <h5>Visual Designs</h5>
+                <p>Expertly curated fragrances and perfumes to elevate your senses and style. From luxurious scents to bespoke blends, discover your signature today!</p>
+                <a href=""><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <img src="./IMAGES/gerd.jpg" alt="">
+            <div class="cover">
+                <h5>Visual Designs</h5>
+                <p>Expertly curated fragrances and perfumes to elevate your senses and style. From luxurious scents to bespoke blends, discover your signature today!</p>
+                <a href=""><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="product" id="product">
+    <div class="sub-text-title">
+        <h2> Bold Masculine <span> Set </span>  </h2>
+    </div>
+      <div class="product-content">
+        <div class="row">
+            <img src="./IMAGES/black1.jpg" alt="">
+            <div class="cover">
+                <h5>Visual Designs</h5>
+                <p>Expertly curated fragrances and perfumes to elevate your senses and style. From luxurious scents to bespoke blends, discover your signature today!</p>
+                <a href=""><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <img src="./IMAGES/black2.jpg" alt="">
+            <div class="cover">
+                <h5>Visual Designs</h5>
+                <p>Expertly curated fragrances and perfumes to elevate your senses and style. From luxurious scents to bespoke blends, discover your signature today!</p>
+                <a href=""><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+      </div>
+</section>
+
+<section class="product" id="product">
+    <div class="sub-text-title">
+        <h2> Fresh Masculine <span> Set </span>  </h2>
+    </div>
+      <div class="product-content">
+        <div class="row">
+            <img src="./IMAGES/fresh.jpg" alt="">
+            <div class="cover">
+                <h5>Visual Designs</h5>
+                <p>Expertly curated fragrances and perfumes to elevate your senses and style. From luxurious scents to bespoke blends, discover your signature today!</p>
+                <a href=""><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <img src="./IMAGES/fresh1.jpg" alt="">
+            <div class="cover">
+                <h5>Visual Designs</h5>
+                <p>Expertly curated fragrances and perfumes to elevate your senses and style. From luxurious scents to bespoke blends, discover your signature today!</p>
+                <a href=""><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----------footer session---------->
+<footer class="footer">
+    <div class="attribution">
+        <p>Design With <i class='bx  bx-heart'  ></i> By AshegunTech</p>
+    </div>
+    <div class="move-up">
+        <a href="#sub-header"><i class='bx  bx-up-arrow-alt'  ></i> </a>
+    </div>
+
+    <!-----JS for toggle menu------>
+    <script>
+        var NavMenu = document.getElementById("NavMenu");
+       
+        function openMenu() {
+            NavMenu.style.right = "0";
+        }
+
+         function closeMenu() {
+            NavMenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title> Stephie Hub </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+   <!----------header---------->
+    <header class="header">
+        <a href="#"> <img src="./IMAGES/Brandlogo1.png" alt="Brandlogo"></a> 
+        <div class="NavMenu" id="NavMenu">
+            <i class='bx  bx-window-close' onclick="closeMenu()"></i>  
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="services.html">Services</a></li>
+                <li> <a href="product.html">product</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class='bx  bx-menu' onclick="openMenu()"></i>  
+    </header>
+
+    <!----------Sub-header session---------->
+    <section class="sub-header" id="sub-header">
+        <h1>About <span> Me</span></h1>
+    </section>
+    
+<!----------About session---------->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="./IMAGES/Tolu4.png" alt="">
+    </div>
+    <div class="about-text">
+        <h4> <span>I'm a </span>Scent Therapist</h4>
+        <p>I'm a Scent Therapist passionate about harnessing the power of fragrance to uplift and inspire. With a deep understanding of the emotional connections we make with scents, I curate exquisite perfumes and deodorants that evoke feelings of confidence, calm, and joy. <br> <br> Whether you're seeking a signature scent, a mood booster, or a natural solution for everyday freshness, I'm here to guide you on your  fragrance journey. When I'm not blending perfumes or exploring the world of scents, you can find me practicing mindfulness, experimenting with aromatherapy recipes, or simply enjoying the beauty of nature. <br> <br>I believe in the transformative power of scent and its ability to enhance our well-being. With every fragrance I create or recommend, I aim to bring a sense of serenity, confidence, and delight to those who experience them. </p>
+        <a href="tel:+2349064200997" class="btn">Let's Discuss</a>
+    </div>
+</section>
+
+<section class="others" id="others">
+    <div class="sub-text-title">
+        <h2> Why <span>Me?</span></h2>
+    </div>
+    <div class="others-img">
+        <img src="./IMAGES/Brandlogo1.png" alt="">
+        <span class="circle-spin"></span>
+    </div>
+    <div class="others-text">
+        <h3><span>As</span> a Scent Therapist & an Educator </h3>
+        <p>
+            - I bring a unique perspective to my work, combining expertise in fragrances with a passion for well-being <br> <br>
+            - I understand that each person and each scent preference is unique, and I tailor my approach to meet individual needs. <br> <br>
+            - I help people enhance their mood, confidence, and overall sense of well-being through the power of scent.
+        </p>
+    </div>
+    <div>
+    <a href="https://wa.me/+2349064200997" class="btn">Contact Me</a>
+    </div>
+</section>
+
+<!----------footer session---------->
+<footer class="footer">
+    <div class="attribution">
+        <p>Design With <i class='bx  bx-heart'  ></i> By AshegunTech</p>
+    </div>
+    <div class="move-up">
+        <a href="#sub-header"><i class='bx  bx-up-arrow-alt'  ></i> </a>
+    </div>
+
+    <!-----JS for toggle menu------>
+    <script>
+        var NavMenu = document.getElementById("NavMenu");
+       
+        function openMenu() {
+            NavMenu.style.right = "0";
+        }
+
+         function closeMenu() {
+            NavMenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
